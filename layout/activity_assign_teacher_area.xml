@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoverde"
+    tools:context=".AssignTeacherArea">
+
+
+    <TextView
+        android:id="@+id/txt_title_register"
+        android:layout_marginTop="30dp"
+        style="@style/TextStyleTitles"
+        android:text="@string/txt_title_assign_teacher" />
+
+    <EditText
+        android:id="@+id/edt_name_teacher"
+        style="@style/EditTextStyle"
+        android:hint="@string/edt_name_student" />
+
+    <EditText
+        android:id="@+id/edt_lastname_teacher"
+        style="@style/EditTextStyle"
+        android:hint="@string/edt_lastname_student" />
+
+    <EditText
+        android:id="@+id/edt_profession_teacher"
+        style="@style/EditTextStyle"
+        android:hint="@string/edt_profession_teacher" />
+
+    <Spinner
+        android:id="@+id/spn_carrers_utom"
+        style="@style/ListStyles"
+        android:dropDownWidth="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_register_teacher"
+        style="@style/ButtonsStyle"
+        android:layout_marginTop="40dp"
+        android:text="@string/btn_assign_teacher" />
+
+</LinearLayout>

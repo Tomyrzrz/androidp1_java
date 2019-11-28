@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoverde"
+    android:orientation="vertical"
+    tools:context=".AssignCoursesStudent">
+
+
+    <TextView
+        android:id="@+id/txt_title_assignc_students"
+        style="@style/TextStyleTitles"
+        android:layout_marginTop="60dp"
+        android:text="@string/txt_title_assignc_student"
+        />
+    <TextView
+        android:id="@+id/txt_students_acs"
+        style="@style/TextviewStyle"
+        android:layout_gravity="start"
+        android:layout_marginTop="50dp"
+        android:text="@string/txt_students_acs"
+        />
+    <Spinner
+        android:id="@+id/spn_students_acs"
+        style="@style/ListStyles"
+        />
+
+    <TextView
+        android:id="@+id/txt_courses_acs"
+        style="@style/TextviewStyle"
+        android:layout_gravity="start"
+        android:text="@string/txt_courses_acs"
+        />
+
+    <Spinner
+        android:id="@+id/spn_students_acs2"
+        style="@style/ListStyles"
+        />
+
+    <Button
+        android:id="@+id/btn_assign_course_acs"
+        style="@style/ButtonsStyle"
+        android:layout_marginTop="60dp"
+        android:text="@string/btn_assign_courses_acs"
+        />
+
+
+</LinearLayout>

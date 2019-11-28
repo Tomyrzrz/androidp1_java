@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoverde"
+    tools:context=".RegisterStudent">
+
+
+    <TextView
+        android:id="@+id/txt_title_register"
+        style="@style/TextStyleTitles"
+        android:layout_marginTop="30dp"
+        android:text="@string/txt_title_register" />
+
+    <EditText
+        android:id="@+id/edt_name_student"
+        style="@style/EditTextStyle"
+        android:hint="@string/edt_name_student" />
+
+    <EditText
+        android:id="@+id/edt_lastname_student"
+        style="@style/EditTextStyle"
+        android:hint="@string/edt_lastname_student" />
+
+    <EditText
+        android:id="@+id/edt_dni_student"
+        style="@style/EditTextStyle"
+        android:hint="@string/edt_dni_student" />
+
+    <Spinner
+        android:id="@+id/spn_carrers_utom"
+        style="@style/ListStyles"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/btn_register_student"
+        style="@style/ButtonsStyle"
+        android:layout_marginTop="80dp"
+        android:text="@string/btn_register_student" />
+
+</LinearLayout>

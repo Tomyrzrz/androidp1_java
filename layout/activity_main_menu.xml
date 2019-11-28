@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoverde"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/txt_title_main_menu"
+        style="@style/TextStyleTitles"
+        android:text="@string/txt_title_main"
+        app:layout_constraintBottom_toTopOf="@+id/img_register_student_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_register_student_menu"
+        style="@style/ImgsStyle"
+        android:contentDescription="@string/img_descrptions"
+        app:layout_constraintBottom_toTopOf="@+id/img_create_course_menu"
+        app:layout_constraintEnd_toStartOf="@+id/img_assign_teacher_menu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title_main_menu"
+        app:srcCompat="@drawable/register" />
+
+    <ImageView
+        android:id="@+id/img_assign_teacher_menu"
+        style="@style/ImgsStyle"
+        android:contentDescription="@string/img_descrptions"
+        app:layout_constraintBottom_toTopOf="@+id/img_assign_courses_student_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_register_student_menu"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title_main_menu"
+        app:srcCompat="@drawable/assignprofe" />
+
+    <ImageView
+        android:id="@+id/img_create_course_menu"
+        style="@style/ImgsStyle"
+        android:contentDescription="@string/img_descrptions"
+        app:layout_constraintBottom_toTopOf="@+id/img_data_course_menu"
+        app:layout_constraintEnd_toStartOf="@+id/img_assign_courses_student_menu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_register_student_menu"
+        app:srcCompat="@drawable/create_new_course" />
+
+    <ImageView
+        android:id="@+id/img_assign_courses_student_menu"
+        style="@style/ImgsStyle"
+        android:contentDescription="@string/img_descrptions"
+        app:layout_constraintBottom_toTopOf="@+id/img_all_courses_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_create_course_menu"
+        app:layout_constraintTop_toBottomOf="@+id/img_assign_teacher_menu"
+        app:srcCompat="@drawable/asssgncourso" />
+
+    <ImageView
+        android:id="@+id/img_data_course_menu"
+        style="@style/ImgsStyle"
+        android:contentDescription="@string/img_descrptions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img_all_courses_menu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_create_course_menu"
+        app:srcCompat="@drawable/list_data_course" />
+
+    <ImageView
+        android:id="@+id/img_all_courses_menu"
+        style="@style/ImgsStyle"
+        android:contentDescription="@string/img_descrptions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/img_data_course_menu"
+        app:layout_constraintTop_toBottomOf="@+id/img_assign_courses_student_menu"
+        app:srcCompat="@drawable/list_all" />
+</androidx.constraintlayout.widget.ConstraintLayout>

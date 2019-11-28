@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    android:background="#FFF"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        style="@style/TextStyleTitles"
+        android:text="Course 1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="start"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/txt_text_carrer"
+            android:text="Carrer: "/>
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/txt_name_carrer"
+            android:text="Tecnologias de Informacion"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/txt_text_group"
+            android:text="Group: "/>
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/txt_name_group"
+            android:text="Septimo A"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/txt_text_subjects"
+            android:text="Subjects:"/>
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="textStart"
+            android:id="@+id/txt_name_subjects"
+            android:text="Redes, Programacion, Ingles, Modelado"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/txt_text_teacher"
+            android:text="Teacher:"/>
+
+        <TextView
+            style="@style/TextviewStyle"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/txt_name_teacher"
+            android:text="Timoteo Ruiz Ruiz"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
